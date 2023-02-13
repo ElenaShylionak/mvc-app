@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
+@Entity   //@Entity - Должен иметь пустой конструктор, должен содержать хотя бы одно @Id-поле, Не может быть вложенным, интерфейсом или enum
 @Table (name = "users")
 
 public class User {
